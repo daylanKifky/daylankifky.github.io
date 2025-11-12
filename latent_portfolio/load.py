@@ -109,7 +109,8 @@ def load_markdown_files(input_folder: str, output_folder: str = None, skip_confi
                     try:
                         json_data = json.loads(script_elem.text.strip())
                     except json.JSONDecodeError as e:
-                        print(f"Warning: Could not parse JSON in {filename}: {e}")
+                        print(f"error: Could not parse JSON in {filename}, aborting execution")
+                        raise e
 
                 key = os.path.splitext(filename)[0]
                 data[key] = {
