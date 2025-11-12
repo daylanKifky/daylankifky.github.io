@@ -28,9 +28,11 @@ This module delivered robust, high-performance data conversion services to a bac
   "description": "Exporters for converting Mujoco files to exchange formats like GLTF, FBX, BLEND and BVH, with bidirectional support for generating SKN files from exchange formats",
   "tags": [
     "production-ready",
+    "py-module",
     "skeletal-animation",
     "3D-data",
-    "mesh-manipulation"
+    "mesh-manipulation",
+    "distributed-pipelines"
   ]
 }
 </script>

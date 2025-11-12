@@ -16,14 +16,15 @@ All of this is implemented in Python using NumPy, with a streamlined, purpose-bu
   "technologies": [
     "Python",
     "NumPy",
-    "SMPL",
+    "SMPL"
   ],
   "description": "Automated pipeline for adapting detailed human meshes onto arbitrary SMPL body shapes, combining custom Python mesh deformation techniques and efficient export with mesh caching.",
   "tags": [
     "resource-optimization",
+    "py-module",
     "skeletal-animation",
     "3D-data",
-    "mesh-manipulation",
+    "mesh-manipulation"
   ]
 }
 </script>

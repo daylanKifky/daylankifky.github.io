@@ -28,7 +28,7 @@ The development work included designing the background service, monitoring syste
     "resource-optimization",
     "skeletal-animation",
     "3D-data",
-    "mesh-manipulation"
+    "mesh-manipulation",
     "mocap"
   ]
 }
