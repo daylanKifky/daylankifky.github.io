@@ -13,7 +13,8 @@ An AR experience where you can navigate a solar system user your smartphone
   "technologies": [
     "Javascript",
     "THREE.js",
-    "AR.js"
+    "AR.js",
+    "CI/CD"
   ],
   "description": "An AR experience where you can navigate a solar system user your smartphone",
   "tags": [

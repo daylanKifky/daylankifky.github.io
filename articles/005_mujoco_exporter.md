@@ -23,7 +23,8 @@ This module delivered robust, high-performance data conversion services to a bac
     "Mujoco",
     "GLTF",
     "NumPy",
-    "bpy"
+    "bpy",
+    "CI/CD"
   ],
   "description": "Exporters for converting Mujoco files to exchange formats like GLTF, FBX, BLEND and BVH, with bidirectional support for generating SKN files from exchange formats",
   "tags": [

@@ -12,8 +12,7 @@ This is a one page website built with modern semantic HTML5 and JavaScript, foll
 {
   "technologies": [
     "JavaScript",
-    "HTML5",
-    "CSS3"
+    "CI/CD"
   ],
   "description": "Designed and implemented a responsive single-page landing site for myolab.ai, utilizing modern frontend technologies and showcasing custom video teasers to communicate the company vision effectively.",
   "tags": [

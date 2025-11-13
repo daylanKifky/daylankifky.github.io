@@ -12,7 +12,8 @@ It's all implemented in Python with minimal dependencies. It offers a CLI interf
 {
   "technologies": [
     "Python",
-    "AWS S3"
+    "AWS S3",
+    "CI/CD"
   ],
   "description": "Cross-platform Python toolkit enabling centralized asset storage, versioning, and collaboration for distributed teams, backed by AWS S3 and fully scriptable for automation or manual workflows.",
   "tags": [
