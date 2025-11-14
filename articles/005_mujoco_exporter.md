@@ -2,7 +2,7 @@
 
 Mujoco is an advanced physics simulation engine, frequently used in robotics and embedded AI environments. This project required a flexible conversion system for Mujoco files, enabling jointed structures and their simulated motions to be converted into several common exchange formats.
 
-![exporter scheme](005_exporter_scheme.png)
+![exporter scheme](images/005_exporter_scheme.png)
 
 The output exchange formats included GLTF, BLEND, FBX, BVH, etc. They can also be used the other way around: get data from exchange formats and generate SKN files.
 

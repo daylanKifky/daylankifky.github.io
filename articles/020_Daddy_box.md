@@ -14,8 +14,9 @@ A Raspberry pi intercomunicator
   ],
   "description": "A Raspberry pi intercomunicator",
   "tags": [
-    "physical-interface",
-    "side-project"
+    "Physical-interface",
+    "Personal-project",
+    "Electronics"
   ]
 }
 </script>

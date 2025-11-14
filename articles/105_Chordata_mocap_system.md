@@ -40,7 +40,8 @@ Beyond the technical and administrative aspects, I also served as the creative d
     "Project Management",
     "Creative Direction",
     "kickstarter",
-    "skeletal-animation"
+    "skeletal-animation",
+    "Electronics"
   ],
   "thumbnail" : "105_Chordata_kcpp.jpg"
 }
