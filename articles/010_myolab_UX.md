@@ -24,6 +24,7 @@ I integrated these designs into a structured UXR workflow, where each iteration 
   "description": "Designed and prototyped multiple user interfaces for embedded AI web platforms.",
   "tags": [
     "UI/UX",
+    "Creative Direction",
     "web design",
     "prototyping"
   ]

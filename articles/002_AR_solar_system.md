@@ -21,6 +21,7 @@ An AR experience where you can navigate a solar system user your smartphone
     "interactive web",
     "XR",
     "web design",
+    "Creative Direction",
     "UX/UI"
   ],
   "thumbnail": "002_space_walk_thumb.webp"
