@@ -13,7 +13,7 @@ It offers access to software and resources crafted by Explora, all of which are 
 {
   "technologies": [
     "Python",
-    "PCB",
+    "PCB-design",
     "Raspberry-pi",
     "Websockets",
     "ws281x"
