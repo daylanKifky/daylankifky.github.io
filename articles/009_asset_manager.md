@@ -2,7 +2,7 @@
 
 An asset manager to meet the demands of centralized asset managment accross a distributed team and cloud-first workflows. It streamlines the process of sharing, tracking, and delivering large digital assets (like 3D models, textures) across engineers, artists, and automated services working from different locations.
 
-![asset manager terminal](009_asset_manager_terminal.png)
+![asset manager terminal](images/009_asset_manager_terminal.png)
 
 Instead of scattered files and endless version conflicts, this asset manager offers centralized, cloud-backed storage (leveraging AWS S3 as storage backend), with built-in versioning and fine-grained permissions. Assets become reliably discoverable and auditable, no matter how many people touch them or where they're used—whether it's development or production.
 

@@ -2,7 +2,7 @@
 
 A Raspberry pi intercomunicator
 
-![some_image](placeholder.jpg)
+![some_image](images/placeholder.jpg)
 
 
 <script type="application/json">

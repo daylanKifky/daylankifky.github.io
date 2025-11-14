@@ -2,12 +2,12 @@
 
 A Raspberry-pi HAT + python controller to streamline the deployment of interactive physical installations like the ones found on participative museums. 
 
-![mounted HAT on raspberry](003_explora_HAT_mounted_rpi.jpg)
+![mounted HAT on raspberry](images/003_explora_HAT_mounted_rpi.jpg)
 
 This project is part of [Explora HUB](https://www.explorahub.eu/), an open repository curated by [Explora – The Children’s Museum of Rome](http://mdbr.it).
 It offers access to software and resources crafted by Explora, all of which are available under Creative Commons licenses.
 
-![Explora Hub Banner](004_banner_explora_hub.jpg)
+![Explora Hub Banner](images/004_banner_explora_hub.jpg)
 
 <script type="application/json">
 {
@@ -25,6 +25,6 @@ It offers access to software and resources crafted by Explora, all of which are 
     "Open-source",
     "Physical-interface"
   ],
-  "thumbnail": "003_explora_hat_icon.png"
+  "thumbnail": "images/003_explora_hat_icon.png"
 }
 </script>

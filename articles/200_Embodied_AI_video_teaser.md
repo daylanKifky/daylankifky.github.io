@@ -21,15 +21,15 @@ The "vision" of a startup in it's early stages is not something simple to expres
 
 I first drafted moodboards and conceptual maps:
 
-![moodboard](200_AI_teaser_moodboard.jpg)
+![moodboard](images/200_AI_teaser_moodboard.jpg)
 
 Which lead to an storyboard:
 
-![storyboard](200_AI_teaser_storyboard.jpg)
+![storyboard](images/200_AI_teaser_storyboard.jpg)
 
 And then to the final video:
 
-![teaser_Stills](200_AI_teaser_stills.jpg)
+![teaser_Stills](images/200_AI_teaser_stills.jpg)
 
 
 <script type="application/json">
@@ -48,6 +48,6 @@ And then to the final video:
     "Animation",
     "Shading"
   ],
-  "thumbnail": "200_AI_teaser_thumb.jpg"
+  "thumbnail": "images/200_AI_teaser_thumb.jpg"
 }
 </script>

@@ -2,7 +2,7 @@
 
 This project produced a dataset of video clips featuring digital humans with a wide range of body shapes and sizes performing various actions. Using rigged characters and a mocap dataset. The resulting video dataset is intended for training computer vision models.
 
-![Synthetic dataset stills](006_synthetic_dataset_stills.jpg)
+![Synthetic dataset stills](images/006_synthetic_dataset_stills.jpg)
 
 **Ensuring broad diversity was essential.** The videos were carefully generated to cover important differences such as lighting, background, clothing, gender, body proportions, and types of motion.
 

@@ -6,7 +6,7 @@ This demo reel showcases a selection of animation and motion graphics projects I
 
 I designed the intro animation specifically for this reel, working frame-by-frame with traditional animation techniques.
 
-![capgross scan](201_capgross_scan.gif)
+![capgross scan](images/201_capgross_scan.gif)
 
 <script type="application/json">
 {
@@ -23,7 +23,7 @@ I designed the intro animation specifically for this reel, working frame-by-fram
     "Animation",
     "Motion-Graphics"
   ],
-  "thumbnail": "201_demo_reel_thumb.jpg"
+  "thumbnail": "images/201_demo_reel_thumb.jpg"
 }
 </script>
 </script>

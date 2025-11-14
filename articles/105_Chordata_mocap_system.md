@@ -4,13 +4,13 @@ I was the creator and CTO of the [Chordata open source Motion Capture system](ht
 
 Chordata Motion emerged from a basic need: I wanted a way to register dance moves for [a performance piece](https://www.youtube.com/watch?v=NEPMSrVD6cU&t=37s), but none of the available tools matched my requirements. What started as a personal side project quickly evolved into a full-fledged open-source movement, attracting tech and communication enthusiasts eager to collaborate under the umbrella of open-source technologies.
 
-![Chordata suite](105_Chordata.jpg)
+![Chordata suite](images/105_Chordata.jpg)
 
 ## Community Building and Open Source Management
 
 As the project gained traction, I took on the role of open source community manager, fostering a collaborative ecosystem around motion capture technology. My responsibilities included building and nurturing a community of developers, artists, researchers, and makers; managing contributions from diverse team members across different time zones and skill sets; developing clear documentation and maintaining forums; and establishing processes for code contributions and issue tracking for the [open hardware/software framework](https://gitlab.com/chordata). The main intention behind Chordata Motion was not just to deliver a software and hardware kit, but to build a sustainable community that supports and sustains the possibility of capturing movement with open technologies, requiring careful project management to balance technical development with community needs.
 
-![chordata integrations](105_Chordata_integrations.jpg)
+![chordata integrations](images/105_Chordata_integrations.jpg)
 
 ## Funding and Commercialization
 
@@ -20,7 +20,7 @@ Following a lean approach, before seeking venture capital or other institutional
 
 Beyond the technical and administrative aspects, I also served as the creative director for the project's visual and audiovisual requirements. This encompassed designing the brand identity, creating marketing materials, producing promotional videos, and overseeing the visual presentation of the system across various platforms and media formats.
 
-![chorata beta testing](105_beta_testing_program.jpg)
+![chorata beta testing](images/105_beta_testing_program.jpg)
 
 <script type="application/json">
 {
@@ -43,6 +43,6 @@ Beyond the technical and administrative aspects, I also served as the creative d
     "skeletal-animation",
     "Electronics"
   ],
-  "thumbnail" : "105_Chordata_kcpp.jpg"
+  "thumbnail" : "images/105_Chordata_kcpp.jpg"
 }
 </script>

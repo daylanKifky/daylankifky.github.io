@@ -8,7 +8,7 @@ It also handle many signal processing operations required to obtain a moving hum
 
 Most internal routines are implemented in C/C++ and wrapped using Cython, so the module combines the flexibility of python and the performance of a compiled language.
 
-![chordata integrations](105_Chordata_integrations.jpg)
+![chordata integrations](images/105_Chordata_integrations.jpg)
 
 <script type="application/json">
 {
@@ -29,6 +29,6 @@ Most internal routines are implemented in C/C++ and wrapped using Cython, so the
     "Signal-processing",
     "Electronics"
   ],
-  "thumbnail": "106_notochord_shell.png"
+  "thumbnail": "images/106_notochord_shell.png"
 }
 </script>
