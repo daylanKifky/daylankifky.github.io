@@ -35,7 +35,7 @@ Special thanks to Ugo Laurenti for producing this demo video, despite the challe
   "tags": [
     "Physical-interface",
     "Inmersive",
-    "Interactive",
+    "Interactive installation",
     "gameDev"
   ],
   "thumbnail": "images/021_Astrodome_thumb.jpg"
