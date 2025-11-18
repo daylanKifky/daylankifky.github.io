@@ -1,4 +1,4 @@
-# Chordata: Notochord python module
+# Chordata: Notochord
 
 A python module that contains the core of the [Chordata Motion's software framework](http://chordata.cc). It is designed to run inside a microcomputer such as the Raspberry Pi allowing to control mocap hardware peripherals such as Chordata's Hub and KCeptors.
 
