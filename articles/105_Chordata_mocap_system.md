@@ -43,6 +43,6 @@ Beyond the technical and administrative aspects, I also served as the creative d
     "skeletal-animation",
     "Electronics"
   ],
-  "thumbnail" : "images/105_Chordata_kcpp.jpg"
+  "thumbnail" : "images/105_back_on_Kickstarter.jpg"
 }
 </script>

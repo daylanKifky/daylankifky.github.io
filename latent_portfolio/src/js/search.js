@@ -56,6 +56,7 @@ class SearchManager extends EventTarget {
         this.miniSearch = null;
         this.technologies = articles.map(article => article.technologies).flat().map(tech => tech.toLowerCase());
         this.tags = articles.map(article => article.tags).flat().map(tag => tag.toLowerCase());
+        this.titles = articles.map(article => article.title).map(title => title.toLowerCase());
         this.initializeMiniSearch(articles);
     }
     
@@ -130,24 +131,23 @@ class SearchManager extends EventTarget {
                 searchQuery = searchQuery.substring(prefixLength).trim();
                 searchOptions.fields = ['technologies'];
             } else {
-                // Exact matches
                 const queryLower = searchQuery.toLowerCase();
                 if (this.technologies.includes(queryLower)) {
                     searchOptions.fields = ['technologies'];
-                    searchOptions.fuzzy = 0; 
-                    searchOptions.prefix = false; 
+                    searchOptions.fuzzy = 0; // Remove fuzzy for exact matches
+                    searchOptions.prefix = false; // Remove prefix for exact matches
                     console.log(`Found technology: ${queryLower}`);
                 } else if (this.tags.includes(queryLower)) {
                     searchOptions.fields = ['tags'];
-                    searchOptions.fuzzy = 0; 
-                    searchOptions.prefix = false; 
+                    searchOptions.fuzzy = 0; // Remove fuzzy for exact matches
+                    searchOptions.prefix = false; // Remove prefix for exact matches
                     console.log(`Found tag: ${queryLower}`);
                 } else if (this.titles.includes(queryLower)) {
                     searchOptions.fields = ['title'];
-                    searchOptions.fuzzy = 0; 
-                    searchOptions.prefix = false; 
+                    searchOptions.fuzzy = 0; // Remove fuzzy for exact matches
+                    searchOptions.prefix = false; // Remove prefix for exact matches
                     console.log(`Found title: ${queryLower}`);
-                } 
+                }
             }
 
             const results = this.miniSearch.search(searchQuery, searchOptions);

@@ -29,6 +29,6 @@ Most internal routines are implemented in C/C++ and wrapped using Cython, so the
     "Signal-processing",
     "Electronics"
   ],
-  "thumbnail": "images/106_notochord_shell.png"
+  "thumbnail": "images/106_thumb_notochord_module.png"
 }
 </script>
