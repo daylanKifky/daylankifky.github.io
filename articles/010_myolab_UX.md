@@ -19,7 +19,8 @@ I integrated these designs into a structured UXR workflow, where each iteration 
   "technologies": [
     "Figma",
     "inkscape",
-    "post-it"
+    "Javascript",
+    "THREE.js"
   ],
   "description": "Designed and prototyped multiple user interfaces for embedded AI web platforms.",
   "tags": [
