@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ 'style.css' | url }}">
 </head>
 <body>
+{% include 'body_start.html' %}
     <div id="loading" style="display: none;">Loading articles...</div>
 
     {% with main_view=True %}
@@ -55,6 +56,10 @@
         {% include 'how_it_works_modal.html' %}
     </div>
 
+    <div id="credit-text">
+        <img src="{{ 'favicon-16x16.png' | url }}" alt="" style="width: 16px; height: 16px;">
+        <p>made with <a href="https://github.com/daylanKifky/latent_portfolio">Latent Portfolio</a>.</p>
+    </div>
 
     <!-- THREE.js -->
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
@@ -79,5 +84,6 @@
     <script src="{{ 'search.js' | url }}"></script>
     <script src="{{ 'userControls.js' | url }}"></script>
     <script src="{{ 'main.js' | url }}"></script>
+{% include 'body_end.html' %}
 </body>
 </html>

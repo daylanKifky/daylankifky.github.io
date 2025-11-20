@@ -1,6 +1,9 @@
 # Latent portfolio
 
+> 🌐 **Visit the live demo**: [http://laurenci.ch](http://laurenci.ch)
+
 This project allows you to view a list of projects as a 3D representation of their semantic latent space.
+
 
 ![latent_portfolio preview](latent_portfolio/src/assets/latent_portfolio_prev.jpg)
 
@@ -80,3 +83,15 @@ Colors are also derived from the 3D coordinates, making articles within a cluste
 
 Connecting arcs are drawn between projects based on their cross-similarity scores. The system calculates similarity between all pairs of projects across different fields (title, tags, etc.), and uses these scores to determine which projects should be visually connected. The thickness and opacity of the arcs represent the strength of the semantic relationship between projects.
 
+## Advanced Customization
+
+For advanced users who need more control over the HTML structure, you can insert custom HTML snippets that will be automatically included in the generated pages. 
+
+See the `latent_portfolio/src/user_templates`, each file contains comments explaining its purpose and example use cases. Simply edit these files to add your custom HTML, scripts, analytics, or other content without modifying the core template files. This makes it easier to maintain your customizations when pulling updates from the upstream repository.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+**Important**: When using this project, please retain the credit text that appears in the generated pages (the "made with Latent Portfolio" attribution). This helps others discover and use this tool :)
