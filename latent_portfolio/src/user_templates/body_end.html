@@ -1,2 +1,48 @@
 <!-- 100% privacy-first analytics -->
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+<!-- Latent portfolio user events tracking -->
+<script>
+(function() {
+    // Listen for all latent user interaction events
+    window.addEventListener('latent_user_events', function(event) {
+        const detail = event.detail;
+        
+        if (!detail || !detail.type) {
+            console.warn('Invalid latent_user_events detail:', detail);
+            return;
+        }
+        
+        // Wait for Simple Analytics to be available
+        const sendEvent = function() {
+            if (typeof sa_event === 'function') {
+                try {
+                    // Format event name for Simple Analytics
+                    const eventName = 'lp_' + detail.type;
+                    
+                    // Create a clean copy of details without the type field
+                    const eventData = {};
+                    for (const key in detail) {
+                        if (key !== 'type' && detail.hasOwnProperty(key)) {
+                            eventData[key] = detail[key];
+                        }
+                    }
+                    
+                    // Send to Simple Analytics
+                    sa_event(eventName, eventData);
+                    console.log('[Analytics] Event sent:', eventName, eventData);
+                } catch (error) {
+                    console.error('[Analytics] Error sending event:', error);
+                }
+            } else {
+                console.warn('[Analytics] sa_event not available yet, retrying...');
+                setTimeout(sendEvent, 100);
+            }
+        };
+        
+        sendEvent();
+    });
+    
+    console.log('[Analytics] Latent user events listener initialized');
+})();
+</script>
