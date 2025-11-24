@@ -4,12 +4,64 @@
 <!-- Latent portfolio user events tracking -->
 <script>
 (function() {
+    /**
+     * Filter metadata to only include simple values allowed by Simple Analytics:
+     * - Text (strings, max 1000 chars)
+     * - Boolean (true/false)
+     * - Number (finite, between -2^36 and 2^36)
+     * - Date objects
+     * No arrays, objects, functions, or falsy values (except booleans)
+     */
+    function filterSimpleMetadata(data) {
+        const filtered = {};
+        
+        for (const key in data) {
+            if (!data.hasOwnProperty(key) || key === 'type') continue;
+            
+            const value = data[key];
+            const valueType = typeof value;
+            
+            // Skip null, undefined, and non-simple types
+            if (value === null || value === undefined) continue;
+            if (valueType === 'function' || valueType === 'symbol') continue;
+            if (Array.isArray(value) || (valueType === 'object' && !(value instanceof Date))) continue;
+            
+            // Include booleans
+            if (valueType === 'boolean') {
+                filtered[key] = value;
+                continue;
+            }
+            
+            // Include numbers (finite only)
+            if (valueType === 'number') {
+                if (isFinite(value)) {
+                    filtered[key] = value;
+                }
+                continue;
+            }
+            
+            // Include strings (truncate if > 1000 chars)
+            if (valueType === 'string') {
+                filtered[key] = value.length > 1000 ? value.substring(0, 1000) : value;
+                continue;
+            }
+            
+            // Include Date objects
+            if (value instanceof Date) {
+                filtered[key] = value;
+                continue;
+            }
+        }
+        
+        return filtered;
+    }
+    
     // Listen for all latent user interaction events
     window.addEventListener('latent_user_events', function(event) {
         const detail = event.detail;
         
         if (!detail || !detail.type) {
-            console.warn('Invalid latent_user_events detail:', detail);
+            console.warn('[Analytics] Invalid latent_user_events detail:', detail);
             return;
         }
         
@@ -20,13 +72,8 @@
                     // Format event name for Simple Analytics
                     const eventName = 'lp_' + detail.type;
                     
-                    // Create a clean copy of details without the type field
-                    const eventData = {};
-                    for (const key in detail) {
-                        if (key !== 'type' && detail.hasOwnProperty(key)) {
-                            eventData[key] = detail[key];
-                        }
-                    }
+                    // Filter metadata to only include simple, allowed values
+                    const eventData = filterSimpleMetadata(detail);
                     
                     // Send to Simple Analytics
                     sa_event(eventName, eventData);
