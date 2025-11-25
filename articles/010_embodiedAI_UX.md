@@ -1,4 +1,4 @@
-# User experience research at embedded AI company
+# User experience research at embodied AI company
 
 I led the design and prototyping of several user interfaces for AI powered 3D modeling tools. Working in a fast paced startup environment, I balanced rapid iteration with user research to create interfaces that made complex technical workflows accessible.
 
@@ -22,7 +22,7 @@ I integrated these designs into a structured UXR workflow, where each iteration 
     "Javascript",
     "THREE.js"
   ],
-  "description": "Designed and prototyped multiple user interfaces for embedded AI web platforms.",
+  "description": "Designed and prototyped multiple user interfaces for embodied AI web platforms.",
   "tags": [
     "UI/UX",
     "Creative Direction",
