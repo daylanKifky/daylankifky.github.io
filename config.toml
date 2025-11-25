@@ -39,7 +39,7 @@ tags = 0.5
 [rotation]
 # Euler rotation angles in degrees for 3D reductions (X, Y, Z axes)
 # Applied after dimensionality reduction, only for 3D outputs
-x = 0
+x = 60
 y = 0
 z = 180
 
